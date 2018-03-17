@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context="com.example.android.quiz.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter your Name Here!"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="Why did you take this course?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question1RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question1RadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="Job Requirement"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1RadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="General Interest"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question1RadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="University Course"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="Did the course meet your expectations?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question2RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question2RadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="Yes"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question2RadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="No"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="Would you recommend this course to others?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question3RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question3RadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="Yes"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question3RadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="No"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="If no, why not?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter text here!"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="How could the course be improved, if at all?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputQuestion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter text here!"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif-monospace"
+            android:text="What is your gender?"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/question6RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question6RadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="Male"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/question6RadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="8dp"
+                android:text="Female"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question6"
+            android:layout_marginBottom="16dp"
+            android:background="#80000000"
+            android:onClick="reviewSurvey"
+            android:text="@string/button_review"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

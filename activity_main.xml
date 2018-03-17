@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="casual"
+        android:text="Google Challenge Scholarship Survey"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        android:text="Android Basics Course"
+        android:textColor="#FF5722"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="4dp"
+        android:text="by Udacity | Google"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#80000000"
+        android:onClick="startSurvey"
+        android:text="@string/button_survey"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/line2"
+        android:layout_marginTop="50dp"
+        android:fontFamily="casual"
+        android:paddingLeft="20dp"
+        android:text="Contact Info."
+        android:textColor="#FF5722"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/line3"
+        android:autoLink="map"
+        android:fontFamily="casual"
+        android:paddingLeft="20dp"
+        android:text="2465 Latham St Mountain View, CA 94043"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/line4"
+        android:autoLink="phone"
+        android:fontFamily="casual"
+        android:paddingLeft="20dp"
+        android:text="650-555-5555"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:autoLink="web"
+        android:fontFamily="casual"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:text="www.udacity.com"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
